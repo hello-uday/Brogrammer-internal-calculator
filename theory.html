@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brogrammers Internal calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 class="main-heading">Internal Calculator</h1>
+        <h3 class="sub-heading">By Brogrammers</h3>
+    </div>  
+    <div class="marks-section">
+        <div class="first">
+            <p class="text">Attendance Marks : </p>
+            <input class="input-box" id="attendance-marks"/>
+        </div>
+        <div class="first">
+            <p class="text">Suprise-Test Marks: </p>
+            <input class="input-box" id="suprise-test"/>
+        </div>
+        <div class="first">
+            <p class="text">Quiz Marks : </p>
+            <input class="input-box" id="quiz"/>
+        </div>
+        <div class="first">
+            <p class="text">Assignment Marks : </p>
+            <input class="input-box" id="assignment-marks"/>
+        </div>
+        <div class="first">
+            <p class="text">MST 1 Marks : </p>
+            <input class="input-box" id="mst1"/>
+        </div>
+        <div class="first">
+            <p class="text">MST 2 Marks : </p>
+            <input class="input-box" id="mst2"/>
+        </div>
+    </div>  
+    <div class="result">
+        <p>Congrats your Internal marks are : <span id="result"></span></p>
+    </div>
+    <button onclick="calculateResult()" class="button">Calculate</button>
+
+    <script src="theory.js"></script>
+</body>
+</html>
